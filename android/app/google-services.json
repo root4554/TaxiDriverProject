@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1076098873319",
+    "project_id": "taxidriver-432eb",
+    "storage_bucket": "taxidriver-432eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076098873319:android:f933c0185000d777e16f42",
+        "android_client_info": {
+          "package_name": "com.example.taxi_driver_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076098873319-coqk8pv80gfsg9tumhtvcci7pkv2cj4k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2Ch83388WR1BzPFKaz9byw5FWKlVFUkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076098873319-coqk8pv80gfsg9tumhtvcci7pkv2cj4k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
