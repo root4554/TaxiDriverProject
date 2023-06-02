@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:taxi_driver_app/constants.dart';
 
 class FiltersBanner extends StatelessWidget {
+  final void Function() press;
   const FiltersBanner({
+    required this.press,
     super.key,
   });
 
@@ -13,13 +15,13 @@ class FiltersBanner extends StatelessWidget {
       width: size.width * 0.9,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: const [
-          Icon(
+        children: [
+          const Icon(
             Icons.menu,
             color: kRedColor,
             size: 30,
           ),
-          Text(
+          const Text(
             "TaxiDriver",
             style: (TextStyle(
               fontFamily: "Libre",
@@ -27,10 +29,17 @@ class FiltersBanner extends StatelessWidget {
               color: kRedColor,
             )),
           ),
-          Icon(
-            Icons.settings,
-            color: kRedColor,
-            size: 30,
+          IconButton(
+            padding: EdgeInsets.zero,
+            onPressed: () {
+              print("object");
+              press();
+            },
+            icon: const Icon(
+              Icons.settings,
+              color: kRedColor,
+              size: 30,
+            ),
           ),
         ],
       ),

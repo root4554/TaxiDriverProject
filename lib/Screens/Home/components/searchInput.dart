@@ -13,9 +13,10 @@ class SearchInput extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         RoundedInputField(
-          hintText: "Search TaxiDriver",
+          TextInputType.text,
           icon: const IconData(0xf34b, fontFamily: 'MaterialIcons'),
           onChanged: (value) {},
+          hintText: "Search TaxiDriver",
           iconColor: kRedColor,
         ),
       ],

@@ -5,7 +5,9 @@ import 'package:taxi_driver_app/constants.dart';
 import 'package:taxi_driver_app/main.dart';
 
 class RoundedPasswordField extends StatefulWidget {
-  const RoundedPasswordField({Key? key}) : super(key: key);
+  final ValueChanged<String> onChanged;
+  const RoundedPasswordField({Key? key, required this.onChanged})
+      : super(key: key);
   @override
   PasswordField createState() => PasswordField();
 }
@@ -26,6 +28,7 @@ class PasswordField extends State<RoundedPasswordField> {
   Widget build(BuildContext context) {
     return TextFieldContainer(
       child: TextField(
+        onChanged: widget.onChanged,
         keyboardType: TextInputType.visiblePassword,
         obscureText: _obscured,
         focusNode: textFieldFocusNode,

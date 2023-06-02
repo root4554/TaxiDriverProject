@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:taxi_driver_app/Screens/Signup/components/body.dart';
+import 'package:taxi_driver_app/Screens/Home/components/AddAnnounce/body.dart';
 
-class SignUpScreen extends StatelessWidget {
+class AddAnnouncementScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

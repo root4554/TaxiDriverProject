@@ -7,7 +7,9 @@ class RoundedInputField extends StatelessWidget {
   final IconData icon;
   final ValueChanged<String> onChanged;
   final iconColor;
-  const RoundedInputField({
+
+  const RoundedInputField(
+    TextInputType emailAddress, {
     super.key,
     required this.hintText,
     required this.icon,
