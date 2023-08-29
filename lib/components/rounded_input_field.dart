@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:taxi_driver_app/components/text_field_container.dart';
-import 'package:taxi_driver_app/constants.dart';
 
 class RoundedInputField extends StatelessWidget {
   final String hintText;

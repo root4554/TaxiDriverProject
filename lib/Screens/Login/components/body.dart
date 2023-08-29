@@ -47,7 +47,7 @@ class Body extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                     builder: (context) {
-                      return Home();
+                      return const Home();
                     },
                   ),
                 );
@@ -61,7 +61,7 @@ class Body extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                     builder: (context) {
-                      return SignUpScreen();
+                      return const SignUpScreen();
                     },
                   ),
                 );

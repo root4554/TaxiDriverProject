@@ -19,8 +19,8 @@ class Body extends StatelessWidget {
         flexibleSpace: SafeArea(
             child: Container(
           // color: Color.fromARGB(38, 255, 199, 30),
-          child: Column(
-            children: const [
+          child: const Column(
+            children: [
               FiltersBanner(),
               SearchInput(),
             ],

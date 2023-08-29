@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:taxi_driver_app/constants.dart';
 
 class AnnounceCard extends StatelessWidget {
   final String imagePath;
@@ -29,7 +28,7 @@ class AnnounceCard extends StatelessWidget {
           debugPrint('Card Tapped');
         },
         splashColor: Colors.blue,
-        child: Container(
+        child: SizedBox(
           width: size.width * 0.45,
           height: size.height * 0.8,
           child: Column(children: <Widget>[

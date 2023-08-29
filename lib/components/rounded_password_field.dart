@@ -1,8 +1,6 @@
-import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:taxi_driver_app/components/text_field_container.dart';
 import 'package:taxi_driver_app/constants.dart';
-import 'package:taxi_driver_app/main.dart';
 
 class RoundedPasswordField extends StatefulWidget {
   const RoundedPasswordField({Key? key}) : super(key: key);
